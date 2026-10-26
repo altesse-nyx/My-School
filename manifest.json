@@ -1,6 +1,6 @@
 {
-  "name": "Mon École - Gestion Scolaire",
-  "short_name": "Mon École",
+  "name": "My School - Gestion Scolaire",
+  "short_name": "My School",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f8fafc",
