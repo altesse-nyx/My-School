@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+</head>
+<body>
+
+    <header>
+        <h1>My School</h1>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <main id="app-content">
+        <h2>Bienvenue !</h2>
+        <p>Prêt à gérer ton école ?</p>
+    </main>
+
+    <nav class="bottom-nav">
+        <button class="nav-btn active" data-target="accueil">🏠 Accueil</button>
+        <button class="nav-btn" data-target="profil">👤 Profil</button>
+        <button class="nav-btn" data-target="notes">📝 Notes</button>
+        <button class="nav-btn" data-target="admin">🛡️ Admin</button>
+    </nav>
+
+    <script src="app.js"></script>
+</body>
+</html>
